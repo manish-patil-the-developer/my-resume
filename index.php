@@ -4,7 +4,7 @@ include_once("header.php");
 <div class="d-flex ">
     <section class="d-flex flex-column w-100">
         <h2 class="flex-column my-0 mx-auto justify-content-center">
-            <span class="text-primary">manish</span> Patil.
+            <span class="text-primary">Manish</span> Patil.
         </h2>
         <p class="my-0 mx-auto p-0 justify-content-center">
             <b><span class="text-primary">Full-Stack</span> <strong>and</strong> <span class="text-primary">Back-End</span> <strong>Developer</strong></b>.
