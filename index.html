@@ -29,7 +29,7 @@
     </section>
  </div>
 <div class="row">
-    <div class="col-6 col-lg-6 colsection border pl-3 pr-2">
+    <div class="col-12 col-lg-6 colsection border pl-3 pr-2 print_option">
         <section class="py-3" id="experience">
             <div class="resume-section-content">
                 <h3 class="m-2 ml-0">Experience</h3>
@@ -145,7 +145,7 @@
         <hr class="m-0">
     </div>
 
-    <div class="col-6 col-lg-6 colsection border pl-2">
+    <div class="col-12 col-lg-6 colsection border pl-2 print_option">
         <section class="py-2" id="education">
             <div class="resume-section-content">
                 <h3 class="m-2 ml-0">Education</h3>
@@ -169,30 +169,36 @@
                 </div>
             </div>
         </section>
-        <hr class="m-0">
-        <section class="py-2" id="skills">
+        <hr class="m-2">
+        <section class="pb-5 py-lg-2" id="skills">
             <div class="resume-section-content">
-                <h3 class="m-2 ml-0">Skills</h3>
-                <div class="d-flex flex-row justify-content-start flex-wrap">
-                    <span class="label label-primary mx-3 my-1 px-2">PHP</span>
-                    <span class="label label-primary mx-3 my-1 px-2">MySql</span>
-                    <span class="label label-primary mx-3 my-1 px-2">Java Script</span>
-                    <span class="label label-primary mx-3 my-1 px-2">Golang</span>
-                    <span class="label label-primary mx-3 my-1 px-2">JQuery</span>
-                    <span class="label label-primary mx-3 my-1 px-2">HTML</span>
-                    <span class="label label-primary mx-3 my-1 px-2">CSS</span>
-                    <span class="label label-primary mx-3 my-1 px-2">ReactJs</span>
-                    <span class="label label-primary mx-3 my-1 px-2">NodeJs</span>
+                <div class="mb-5 my-lg-0">
+                    <h3 class="m-3 m-lg-2 ml-0">Skills</h3>
+                    <div class="d-flex flex-row justify-content-start flex-wrap">
+                        <span class="label label-primary mx-3 my-1 px-2">PHP</span>
+                        <span class="label label-primary mx-3 my-1 px-2">MySql</span>
+                        <span class="label label-primary mx-3 my-1 px-2">Java Script</span>
+                        <span class="label label-primary mx-3 my-1 px-2">Golang</span>
+                        <span class="label label-primary mx-3 my-1 px-2">JQuery</span>
+                        <span class="label label-primary mx-3 my-1 px-2">HTML</span>
+                        <span class="label label-primary mx-3 my-1 px-2">CSS</span>
+                        <span class="label label-primary mx-3 my-1 px-2">ReactJs</span>
+                        <span class="label label-primary mx-3 my-1 px-2">NodeJs</span>
+                    </div>
                 </div>
-                <hr class="my-2">
+                <hr class="mt-5 mt-lg-3 d-lg-none">
+                <hr class="mt-5 mt-lg-3 d-lg-none">
+                <hr class="mt-5 mt-lg-3">
 
-                <h3 class="m-2 ml-0">Frameworks</h3>
-                <div class="d-flex flex-row justify-content-start flex-wrap">
-                    <span class="label label-primary mx-3 px-2">Slim</span>
-                    <span class="label label-primary mx-3 px-2">Codeigniter <small> 3 & 4</small></span>
-                    <span class="label label-primary mx-3 px-2">Yii<small>2</small></span>
-                    <span class="label label-primary mx-3 px-2">Laravel<small> 8</small></span>
-                    <span class="label label-primary mx-3 px-2">MERN</span>
+                <div>
+                    <h3 class="m-2 ml-0">Frameworks</h3>
+                    <div class="d-flex flex-row justify-content-start flex-wrap">
+                        <span class="label label-primary mx-3 px-2">Slim</span>
+                        <span class="label label-primary mx-3 px-2">Codeigniter <small> 3 & 4</small></span>
+                        <span class="label label-primary mx-3 px-2">Yii<small>2</small></span>
+                        <span class="label label-primary mx-3 px-2">Laravel<small> 8</small></span>
+                        <span class="label label-primary mx-3 px-2">MERN</span>
+                    </div>
                 </div>
 
                 <!-- <h3 class="m-2 ml-0">CMS</h3>
@@ -298,5 +304,15 @@
         <script src="js/jquery.easing.min.js"></script>
         <!-- Core theme JS-->
         <script src="js/scripts.js"></script>
+        <script>
+            $( window ).bind( "beforeprint", function() { 
+                $(".print_option").removeClass("col-6").addClass('col-12'); 
+            });
+
+            $( window ).bind( "afterprint", function() { 
+                $(".print_option").removeClass("col-12").addClass('col-6'); 
+            });
+
+        </script>
     </body>
 </html>
