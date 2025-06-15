@@ -15,7 +15,7 @@ This is a resume template using the Start Bootstrap theme.
 
 ## Experience
 
-### Qualys (July – 2024  to TILL NOW)
+### Qualys (JULY – 2024  to TILL NOW)
 
 **Position:** Senior Software Engineer
 
@@ -25,7 +25,7 @@ This is a resume template using the Start Bootstrap theme.
 - Conducted requirement analysis, assessed impacted areas, and defined technical approach.
 - Reviewed pull requests for code quality while mentoring junior developers on best practices and improvements.
 
-### Impact Guru (NOVEMBER – 2023 to June - 2024)
+### Impact Guru (NOVEMBER – 2023 to JUNE - 2024)
 
 **Position:** Software Development Engineer II
 
