@@ -15,7 +15,17 @@ This is a resume template using the Start Bootstrap theme.
 
 ## Experience
 
-### Impact Guru (NOVEMBER – 2023 to TILL NOW)
+### Qualys (July – 2024  to TILL NOW)
+
+**Position:** Senior Software Engineer
+
+- Integrated React-based Micro Frontends into a legacy PHP codebase from the early 2000s.
+- Revamped critical authentication flows, including Login and Forgot Password functionalities, improving user experience and system reliability.
+- Redeveloped a 2010-era product to shift usage from API-only to full-feature adoption.
+- Conducted requirement analysis, assessed impacted areas, and defined technical approach.
+- Reviewed pull requests for code quality while mentoring junior developers on best practices and improvements.
+
+### Impact Guru (NOVEMBER – 2023 to June - 2024)
 
 **Position:** Software Development Engineer II
 
