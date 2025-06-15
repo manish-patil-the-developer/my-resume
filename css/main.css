@@ -108,3 +108,14 @@
 @media (min-width: 1200px) { 
     
  }
+
+/* .print_option {
+    width: 50% ;
+    float: left ;
+    display: inline-block ;
+    box-sizing: border-box;
+} */
+
+.subheading{
+    line-height: 24px;
+}
